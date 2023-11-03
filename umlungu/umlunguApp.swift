@@ -6,12 +6,13 @@
 //
 
 import SwiftUI
+import SwiftData
 
 @main
 struct umlunguApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView().modelContainer(for: WordItem.self)
         }
     }
 }

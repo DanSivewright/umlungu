@@ -11,6 +11,8 @@
 		37E2901A2AF187F900AD2E9E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37E290192AF187F900AD2E9E /* ContentView.swift */; };
 		37E2901C2AF187FA00AD2E9E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 37E2901B2AF187FA00AD2E9E /* Assets.xcassets */; };
 		37E2901F2AF187FA00AD2E9E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 37E2901E2AF187FA00AD2E9E /* Preview Assets.xcassets */; };
+		37E290262AF1881000AD2E9E /* WordItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37E290252AF1881000AD2E9E /* WordItem.swift */; };
+		37E290282AF188BA00AD2E9E /* CreateWord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37E290272AF188BA00AD2E9E /* CreateWord.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		37E290192AF187F900AD2E9E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		37E2901B2AF187FA00AD2E9E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		37E2901E2AF187FA00AD2E9E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		37E290252AF1881000AD2E9E /* WordItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordItem.swift; sourceTree = "<group>"; };
+		37E290272AF188BA00AD2E9E /* CreateWord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateWord.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +56,9 @@
 			isa = PBXGroup;
 			children = (
 				37E290172AF187F900AD2E9E /* umlunguApp.swift */,
+				37E290272AF188BA00AD2E9E /* CreateWord.swift */,
 				37E290192AF187F900AD2E9E /* ContentView.swift */,
+				37E290252AF1881000AD2E9E /* WordItem.swift */,
 				37E2901B2AF187FA00AD2E9E /* Assets.xcassets */,
 				37E2901D2AF187FA00AD2E9E /* Preview Content */,
 			);
@@ -138,7 +144,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				37E2901A2AF187F900AD2E9E /* ContentView.swift in Sources */,
+				37E290262AF1881000AD2E9E /* WordItem.swift in Sources */,
 				37E290182AF187F900AD2E9E /* umlunguApp.swift in Sources */,
+				37E290282AF188BA00AD2E9E /* CreateWord.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,6 +288,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -309,6 +318,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
